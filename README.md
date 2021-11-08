@@ -4,4 +4,4 @@ Necessario instalar o modulo Levenshtein:
   pip3 install levenshtein
 
 Para executar:
-  python3 levlog.py "<ratio treshold>" <arquivos de log separados por espaco, ou uma mascara>
+  python3 levlog.py "ratio treshold" <arquivos de log separados por espaco, ou uma mascara>
