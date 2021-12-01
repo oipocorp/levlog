@@ -21,4 +21,5 @@ for input_filename in input_filenames:
                 log_dict[log_line] = 1
 
 
-pprint(log_dict)
+for k, v in log_dict.items():
+    print('\t'.join([str(v), k]))
